@@ -75,6 +75,34 @@ h3 { font-size: 1.25rem; }
 .portrait-wrap img { width: 100%; display: block; }
 .about-copy p:not(.eyebrow) { color: var(--muted); font-size: 1.04rem; }
 blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--blue); background: var(--blue-soft); color: var(--blue-dark); font-size: 1.06rem; font-weight: 650; }
+
+.testimonials { background: var(--white); }
+.testimonials-heading { margin-bottom: 34px; }
+.testimonial-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
+.testimonial-card { position: relative; background: var(--cream); border: 1px solid var(--border); border-radius: 24px; padding: 34px 34px 30px; box-shadow: 0 8px 28px rgba(32,50,62,.05); }
+.quote-mark { color: var(--blue); font-family: Georgia, "Times New Roman", serif; font-size: 4.5rem; line-height: .65; height: 28px; }
+.testimonial-card blockquote { margin: 18px 0 20px; padding: 0; border: 0; background: transparent; color: var(--ink); font-size: 1.12rem; line-height: 1.55; font-weight: 600; }
+.testimonial-author { margin: 0; color: var(--blue-dark); font-weight: 800; }
+.contact { background: var(--blue-soft); }
+.contact-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 70px; align-items: start; }
+.contact-copy h2 { max-width: 620px; }
+.contact-copy > p:not(.eyebrow) { max-width: 600px; color: var(--muted); font-size: 1.05rem; }
+.contact-note { margin-top: 28px; color: var(--blue-dark) !important; }
+.contact-form { background: white; border: 1px solid var(--border); border-radius: 24px; padding: 32px; box-shadow: var(--shadow); }
+.form-row { margin-bottom: 18px; }
+.form-row label { display: block; margin-bottom: 7px; color: var(--blue-dark); font-size: .9rem; font-weight: 800; }
+.form-row label span { color: var(--blue); }
+.form-row input, .form-row textarea { width: 100%; border: 1px solid #cfd9de; border-radius: 12px; padding: 13px 14px; font: inherit; color: var(--ink); background: #fbfcfd; outline: none; transition: border-color .2s ease, box-shadow .2s ease; }
+.form-row textarea { resize: vertical; min-height: 150px; }
+.form-row input:focus, .form-row textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 3px rgba(43,107,153,.12); }
+.contact-form .button { border: 0; cursor: pointer; width: 100%; }
+.form-note { margin: 12px 0 0; color: #7b858b; font-size: .75rem; text-align: center; }
+.hidden-field { position: absolute; left: -5000px; }
+@media (max-width: 900px) {
+  .testimonial-grid, .contact-grid { grid-template-columns: 1fr; }
+  .contact-grid { gap: 42px; }
+}
+
 .final-cta { padding-top: 30px; }
 .final-box { background: linear-gradient(135deg, #eef5f9, #f7f3e9); border-radius: 28px; padding: 48px; display: flex; justify-content: space-between; align-items: center; gap: 35px; }
 .final-box p:not(.eyebrow) { max-width: 680px; color: var(--muted); margin-bottom: 0; }
