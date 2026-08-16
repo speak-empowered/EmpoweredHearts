@@ -21,7 +21,7 @@ a { color: inherit; }
 .site-header { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.94); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(43,107,153,.12); }
 .nav-wrap { min-height: 86px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .brand img { width: min(390px, 52vw); height: auto; display: block; }
-nav { display: flex; align-items: center; gap: 24px; font-size: .92rem; font-weight: 650; }
+nav { display: flex; align-items: center; gap: 20px; font-size: .92rem; font-weight: 650; }
 nav a { text-decoration: none; color: #34424c; }
 nav a:hover { color: var(--blue); }
 .nav-donate { padding: 11px 18px; border-radius: 999px; background: var(--blue); color: white !important; }
