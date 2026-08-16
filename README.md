@@ -43,3 +43,10 @@ The site also references research sources named on the Foundation page:
 - Houtrow AJ, McKernan LC, Shearer CL, et al. *Health Care Cost Concerns and Hardships for Families of Children With Disabilities.* JAMA Network Open. 2025.
 - Carlton ER, Chua K-P, et al. University of Michigan / CHEAR study on out-of-pocket spending for non-birth-related pediatric hospitalizations.
 - Brennan J, et al. *Association of Financial Hardship Because of Medical Bills With Adverse Outcomes Among Families of Children With Congenital Heart Disease.* JAMA Cardiology. 2020.
+
+
+## Recent additions
+- How Your Gift Helps giving section
+- Testimonials
+- Netlify contact form
+- Our Empowered Community section linking Lead Empowered LLC, Lead Empowered TV, Speak Empowered, and Write Empowered

@@ -112,6 +112,7 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 .hidden-field { position: absolute; left: -5000px; }
 @media (max-width: 900px) {
   .testimonial-grid, .contact-grid { grid-template-columns: 1fr; }
+  .community-grid { grid-template-columns: repeat(2, 1fr); }
   .contact-grid { gap: 42px; }
 }
 
@@ -119,8 +120,19 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 .final-box { background: linear-gradient(135deg, #eef5f9, #f7f3e9); border-radius: 28px; padding: 48px; display: flex; justify-content: space-between; align-items: center; gap: 35px; }
 .final-box p:not(.eyebrow) { max-width: 680px; color: var(--muted); margin-bottom: 0; }
 .final-box .button { min-width: 220px; }
+
+.community { background: var(--cream); }
+.community-heading { max-width: 780px; }
+.community-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.community-card { display: flex; flex-direction: column; background: white; border: 1px solid var(--border); border-radius: 22px; padding: 28px 24px; text-decoration: none; box-shadow: 0 8px 28px rgba(32,50,62,.05); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.community-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: rgba(43,107,153,.3); }
+.community-kicker { color: var(--blue); font-size: .72rem; font-weight: 900; letter-spacing: .18em; margin-bottom: 16px; }
+.community-card h3 { color: var(--ink); margin-bottom: 10px; }
+.community-card p { color: var(--muted); font-size: .94rem; margin: 0 0 22px; }
+.community-link { color: var(--blue); font-weight: 800; font-size: .88rem; margin-top: auto; }
+
 .site-footer { background: #1f2529; color: #e7ecef; padding: 60px 0 22px; }
-.footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 60px; padding-bottom: 45px; }
+.footer-grid { display: grid; grid-template-columns: 1.25fr .8fr .9fr; gap: 60px; padding-bottom: 45px; }
 .footer-logo { width: min(360px, 70vw); height: auto; display: block; opacity: .95; }
 .footer-grid p { color: #aeb8bd; margin: 14px 0 0; }
 .footer-grid h3 { font-size: 1rem; }
@@ -150,6 +162,7 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
   .section { padding: 78px 0; }
   .facts-callout > div { grid-template-columns: 1fr; gap: 12px; }
   .giving-grid { grid-template-columns: 1fr; }
+  .community-grid { grid-template-columns: 1fr; }
   .giving-card.featured { transform: none; }
   .giving-note .button { width: 100%; }
   .final-box { padding: 32px 24px; }
