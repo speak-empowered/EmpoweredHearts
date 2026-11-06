@@ -227,3 +227,8 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 /* Keep the Stand in the Gap giving CTA on a single line. */
 .giving-note .button { min-width: max-content; white-space: nowrap; flex-shrink: 0; }
 @media (max-width: 700px) { .giving-note .button { width: auto; max-width: 100%; padding-inline: 16px; font-size: clamp(.78rem, 3.5vw, 1rem); } }
+
+/* Stand in the Gap: prevent donation CTA wrapping in the final callout. */
+.final-box .button { flex: 0 0 auto; width: max-content; min-width: max-content; white-space: nowrap; gap: 0; }
+.final-box .button span { white-space: nowrap; }
+@media (max-width: 560px) { .final-box .button { max-width: 100%; padding-inline: 14px; font-size: clamp(.75rem, 3.5vw, .95rem); } }
