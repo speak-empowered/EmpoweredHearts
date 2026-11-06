@@ -236,3 +236,6 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 /* Subtle heart-hands accent beside the testimonials heading */
 .heart-mission-title { display: flex; align-items: center; gap: 14px; }
 .heart-hands-icon { display: inline-block; flex: none; font-size: .8em; line-height: 1; }
+
+/* Refined signature-blue heart emblem for mission heading */
+.heart-mission-title .heart-hands-icon { width: .82em; height: .82em; flex: 0 0 auto; color: #2b6b99; display: block; }
