@@ -260,3 +260,10 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 .site-footer::before { content: ""; position: absolute; z-index: -1; right: 13%; top: 13%; width: 10px; height: 110px; border-radius: 2px; background: rgba(255,241,209,.42); box-shadow: 0 0 24px rgba(255,222,155,.16); pointer-events: none; }
 .site-footer::after { content: ""; position: absolute; z-index: -1; right: calc(13% - 30px); top: calc(13% + 30px); width: 70px; height: 10px; border-radius: 2px; background: rgba(255,241,209,.42); pointer-events: none; }
 @media (max-width: 700px) { .site-footer::before { right: 9%; opacity: .5; } .site-footer::after { right: calc(9% - 30px); opacity: .5; } }
+
+/* Place the illuminated cross immediately to the left of Jeremiah 29:11. */
+.site-footer::before, .site-footer::after { content: none; }
+.footer-grid > div:first-child { display: flex; align-items: center; gap: 22px; }
+.footer-grid > div:first-child::before { content: ""; display: block; flex: 0 0 64px; width: 64px; height: 100px; background: linear-gradient(rgba(255,232,184,.94),rgba(255,232,184,.94)) center / 10px 100px no-repeat, linear-gradient(rgba(255,232,184,.94),rgba(255,232,184,.94)) center 31px / 64px 10px no-repeat; filter: drop-shadow(0 0 10px rgba(255,202,100,.5)); }
+.footer-grid > div:first-child p { margin-top: 0; }
+@media (max-width: 560px) { .footer-grid > div:first-child { gap: 15px; } .footer-grid > div:first-child::before { flex-basis: 43px; width: 43px; height: 72px; background-size: 7px 72px, 43px 7px; background-position: center, center 22px; } }
