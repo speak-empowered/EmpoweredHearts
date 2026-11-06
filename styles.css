@@ -193,3 +193,9 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 .community-icon-watch { color: #b47a09; background: #fff1cf; }
 .community-icon-speak { color: #bf514c; background: #ffe7e0; }
 .community-icon-write { color: #72519b; background: #f0e7f7; }
+
+.community-tagline { display: block; margin: -10px 0 15px; font-size: .7rem; font-weight: 900; letter-spacing: .1em; line-height: 1.45; text-transform: uppercase; }
+.community-icon-lead + .community-tagline { color: #16788a; }
+.community-icon-watch + .community-tagline { color: #b47a09; }
+.community-icon-speak + .community-tagline { color: #bf514c; }
+.community-icon-write + .community-tagline { color: #72519b; }
