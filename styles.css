@@ -309,3 +309,7 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 
 /* Align the community section heading with the left edge of its column. */
 .footer-grid > div:last-child > h3 { text-align: left; }
+
+/* Left-align both columns of community links beneath the heading. */
+.community-footer-links { justify-items: start; }
+.community-footer-links a { text-align: left; }
