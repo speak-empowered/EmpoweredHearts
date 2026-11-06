@@ -223,3 +223,7 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 
 /* Givebutter brand mark alongside donation CTA text */
 .givebutter-icon { display: block; width: 22px; height: 22px; object-fit: contain; flex: 0 0 22px; margin-right: 9px; border-radius: 4px; }
+
+/* Keep the Stand in the Gap giving CTA on a single line. */
+.giving-note .button { min-width: max-content; white-space: nowrap; flex-shrink: 0; }
+@media (max-width: 700px) { .giving-note .button { width: auto; max-width: 100%; padding-inline: 16px; font-size: clamp(.78rem, 3.5vw, 1rem); } }
