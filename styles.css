@@ -210,3 +210,7 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 /* Red heart treatment for header logo; original image remains untouched. */
 .brand { position: relative; display: inline-block; flex: 0 1 auto; }
 .brand-red-heart { position: absolute; width: 15.1%; height: 100%; top: 0; left: 0; pointer-events: none; }
+
+/* Footer logo red-heart treatment, matching the header. */
+.footer-brand { position: relative; display: inline-block; max-width: 100%; vertical-align: top; }
+.footer-red-heart { position: absolute; left: 0; top: 0; width: 15.1%; height: 100%; pointer-events: none; }
