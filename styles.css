@@ -180,8 +180,3 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 /* Custom illustrations for family resource cards */
 .resource-icon { width: 78px; height: 78px; border-radius: 50%; background: #eaf2f7; color: #2b6b99; display: flex; align-items: center; justify-content: center; margin-bottom: 22px; flex: none; }
 .resource-icon svg { width: 48px; height: 48px; }
-.resource-icon-fez { background: #fff0eb; position: relative; }
-.fez-hat { position: relative; display: block; width: 40px; height: 37px; margin-top: 10px; background: #c42f36; border: 2px solid #992028; border-radius: 5px 5px 11px 11px; transform: perspective(90px) rotateX(-7deg); box-shadow: inset -7px 0 0 rgba(0,0,0,.1); }
-.fez-hat::before { content: ""; position: absolute; left: -2px; top: -7px; width: 40px; height: 12px; background: #e4484e; border: 2px solid #992028; border-radius: 50%; box-sizing: border-box; }
-.fez-tassel { position: absolute; top: -12px; left: 19px; width: 3px; height: 30px; background: #29272b; border-radius: 2px; transform: rotate(-29deg); transform-origin: top; }
-.fez-tassel::after { content: ""; position: absolute; bottom: -3px; left: -4px; width: 11px; height: 12px; background: #29272b; border-radius: 1px 1px 6px 6px; }
