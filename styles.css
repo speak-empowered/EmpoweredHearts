@@ -25,7 +25,7 @@ nav { display: flex; align-items: center; gap: 20px; font-size: .92rem; font-wei
 nav a { text-decoration: none; color: #34424c; }
 nav a:hover { color: var(--blue); }
 .nav-donate { padding: 11px 18px; border-radius: 999px; background: var(--blue); color: white !important; }
-.hero { position: relative; overflow: hidden; background: linear-gradient(120deg, #f6f8f8 0%, #f7f2e8 100%); padding: 46px 0 72px; }
+.hero { position: relative; overflow: hidden; background: linear-gradient(120deg, #f6f8f8 0%, #f7f2e8 100%); padding: 24px 0 48px; }
 .hero-glow { position: absolute; width: 560px; height: 560px; right: -220px; top: -180px; background: rgba(43,107,153,.08); border-radius: 50%; filter: blur(5px); }
 .hero-grid { position: relative; display: grid; grid-template-columns: 1.02fr .98fr; align-items: center; gap: 64px; }
 .eyebrow { margin: 0 0 14px; color: var(--blue); font-size: .78rem; font-weight: 800; letter-spacing: .18em; }
@@ -141,7 +141,7 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 .footer-bottom { border-top: 1px solid rgba(255,255,255,.12); padding-top: 18px; display: flex; justify-content: space-between; gap: 20px; color: #8f9aa0; font-size: .76rem; }
 @media (max-width: 900px) {
   nav a:not(.nav-donate) { display: none; }
-  .hero { padding: 38px 0 58px; }
+  .hero { padding: 22px 0 42px; }
   .hero-grid, .about-grid { grid-template-columns: 1fr; gap: 42px; }
   .hero-art { max-width: 650px; }
   .cards { grid-template-columns: 1fr; }
