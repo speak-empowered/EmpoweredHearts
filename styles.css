@@ -206,3 +206,7 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 .impact-icon-medical { color: #247c80; background: #e4f3f2; }
 .impact-icon-income { color: #b17a19; background: #fff2d9; }
 .impact-icon-pressure { color: #a65b83; background: #f7e8f1; }
+
+/* Red heart treatment for header logo; original image remains untouched. */
+.brand { position: relative; display: inline-block; flex: 0 1 auto; }
+.brand-red-heart { position: absolute; width: 15.1%; height: 100%; top: 0; left: 0; pointer-events: none; }
