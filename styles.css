@@ -232,3 +232,7 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 .final-box .button { flex: 0 0 auto; width: max-content; min-width: max-content; white-space: nowrap; gap: 0; }
 .final-box .button span { white-space: nowrap; }
 @media (max-width: 560px) { .final-box .button { max-width: 100%; padding-inline: 14px; font-size: clamp(.75rem, 3.5vw, .95rem); } }
+
+/* Subtle heart-hands accent beside the testimonials heading */
+.heart-mission-title { display: flex; align-items: center; gap: 14px; }
+.heart-hands-icon { display: inline-block; flex: none; font-size: .8em; line-height: 1; }
