@@ -242,3 +242,9 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 
 /* Size the mission heart to match the two-line heading. */
 .heart-mission-title .heart-hands-icon { width: 2em; height: 2em; }
+
+/* Consistent Givebutter icon/text layout in header and light CTA. */
+.nav-donate, .button-light:has(.givebutter-icon) { display: inline-flex; align-items: center; justify-content: center; white-space: nowrap; }
+.nav-donate .givebutter-icon, .button-light .givebutter-icon { margin-right: 9px; }
+.nav-donate { flex-shrink: 0; }
+@media (max-width: 560px) { .nav-donate { font-size: .75rem; padding: 9px 11px; } .nav-donate .givebutter-icon { width: 18px; height: 18px; flex-basis: 18px; margin-right: 6px; } }
