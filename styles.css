@@ -250,7 +250,7 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 @media (max-width: 560px) { .nav-donate { font-size: .75rem; padding: 9px 11px; } .nav-donate .givebutter-icon { width: 18px; height: 18px; flex-basis: 18px; margin-right: 6px; } }
 
 /* Hope-filled sunrise footer: deep blue overlay preserves text contrast. */
-.site-footer { background-color: #172d3e; background-image: linear-gradient(90deg, rgba(12,32,49,.91), rgba(17,45,66,.82)), url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=2000&q=85"); background-position: center, center 52%; background-size: cover; background-repeat: no-repeat; }
+.site-footer { background-color: #172d3e; background-image: linear-gradient(90deg, rgba(12,32,49,.91), rgba(17,45,66,.82)), url("https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=2000&q=85"); background-position: center, center 52%; background-size: cover; background-repeat: no-repeat; }
 .site-footer .footer-grid p { color: #e0eaf0; }
 .site-footer .footer-grid a { color: #f0f5f8; }
 .site-footer .footer-bottom { color: #d3e0e9; border-top-color: rgba(255,255,255,.28); }
