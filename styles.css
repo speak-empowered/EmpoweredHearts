@@ -214,3 +214,9 @@ blockquote { margin: 30px 0 0; padding: 25px 28px; border-left: 4px solid var(--
 /* Footer logo red-heart treatment, matching the header. */
 .footer-brand { position: relative; display: inline-block; max-width: 100%; vertical-align: top; }
 .footer-red-heart { position: absolute; left: 0; top: 0; width: 15.1%; height: 100%; pointer-events: none; }
+
+/* Financial challenge headings alongside their icons */
+.impact-heading { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; }
+.impact-heading .impact-icon { flex: 0 0 78px; margin-bottom: 0; }
+.impact-heading h3 { margin: 0; }
+@media (max-width: 420px) { .impact-heading { gap: 12px; } .impact-heading .impact-icon { flex-basis: 64px; width: 64px; height: 64px; } .impact-heading .impact-icon svg { width: 40px; height: 40px; } }
